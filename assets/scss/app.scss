@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "variables.scss";
+body {
+    background-color: $black;
+}
+.game-card {
+    border: solid 1px $white;
+    height: 100px;
+    width: 100px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.carousel-item {
+    height: 300px;
+}

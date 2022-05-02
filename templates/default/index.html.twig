@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon jeu de memory{% endblock %}
+
+{% block body %}
+<div id="react-app">
+
+</div>
+<input type="hidden" id="route-add-time" value="{{ path("time.create") }}" />
+<input type="hidden" id="route-list-time" value="{{ path("time.list") }}" />
+{% endblock %}
